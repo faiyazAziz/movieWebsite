@@ -15,4 +15,8 @@ const PageNotFound = () => {
     );
 };
 
+<<<<<<< HEAD
 export default PageNotFound;
+=======
+export default PageNotFound;
+>>>>>>> 692c3e4b0ec94efc658622c8db6fcc5feef86342

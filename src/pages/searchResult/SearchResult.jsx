@@ -6,7 +6,6 @@ import ContentWrapper from '../../components/contentWrapper/ContentWrapper';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import MovieCard from '../../components/movieCard/MovieCard'
 import { useParams } from 'react-router-dom';
-import PageNotFound from '../404/PageNotFound';
 
 const SearchResult = () => {
   const [data,setData] = useState(null);
@@ -61,9 +60,7 @@ const SearchResult = () => {
             </InfiniteScroll>
             </>
           ):(
-            <span> 
-              <PageNotFound />
-            </span>
+            <span> Page Not Found </span>
           )}
         </ContentWrapper>
       )}
